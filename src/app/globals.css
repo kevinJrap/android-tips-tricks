@@ -1,9 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: var(--font-inter);
-}
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* Custom utilities if needed */
 .prose {
   @apply text-gray-300;
